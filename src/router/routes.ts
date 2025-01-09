@@ -3,5 +3,11 @@
  *
  */
 import type { RouteRecordRaw } from 'vue-router'
+import HomePageView from '@/views/HomePageView.vue'
 
-export const routes: Array<RouteRecordRaw> = []
+export const routes: Array<RouteRecordRaw> = [
+  {
+    path: '',
+    component: HomePageView,
+  },
+]
