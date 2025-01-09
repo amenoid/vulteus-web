@@ -2,5 +2,6 @@
  * SPA Route List
  *
  */
+import type { RouteRecordRaw } from 'vue-router'
 
-export default []
+export const routes: Array<RouteRecordRaw> = []
